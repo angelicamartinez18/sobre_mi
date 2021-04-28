@@ -1,0 +1,207 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+  color: black;
+  background-color: #b5a0a0;
+}
+
+/*--------navbar----------*/
+
+.navbar{
+  text-transform: uppercase;
+ 
+  font-weight: bold 700;
+  font-size: 1.3rem;
+  letter-spacing: .3rem;
+  /*background: rgba(0,0,0, .6)!important;*/
+  background: #927878!important;
+}
+
+
+.navbar-nav li{
+  padding-right: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:white;
+  padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: white!important;
+}
+
+.nav-link{
+    color: #272121;
+}
+
+.navbar{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*-----------------slider-----------------*/
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 79px;
+    background: #121725;
+    height: 500px;
+    background-color: rgba(0, 0, 0, . 7);
+}
+
+.dark-overlay{
+background-color: rgba(0, 0, 0, . 7);
+
+}
+
+.carousel-item{
+  height: 80vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+
+
+}
+.carousel-item-slide2{
+  height: 600px;
+}
+
+
+
+footer{
+
+  background-color: #e0dcdc;
+  color: black;
+  padding: 2rem 0 3rem;
+  margin-top: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagen-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+
+ 
+
+}
+
+
+
+.categorias h2{
+    font-size: 2.5rem;
+    color: #167bf7;
+}
+.categorias a{
+    font-weight: 400;
+    color: #272121;
+    text-decoration: none;
+}
+
+.nosotros .img-nosotros{
+    min-height: 40rem;
+    
+}
+
+.img-nosotros{
+   /* background-image: url(../img/kisspng-drawing-crystal-quartz-illustration-colorful-diamond-5a9e57ed08c237.4087365615203266370359.png);*/
+    
+}
+
+
+
+
+
+.container-fluid-mision{
+
+  /*background-color:   #42a5f5;*/
+  background:linear-gradient(40deg,#45cafc,#303f9f) !important;
+
+}
+.container-fluid-vision{
+  /*background-color:#64b5f6;*/
+ /* background:linear-gradient(40deg,#45CAFA,#b438dc) !important;*/
+     background: linear-gradient(40deg,#4debcd,#0d48a1) !important;
+
+ 
+}
+ 
+ .dropdown-menu{
+  width: 90%;
+ }
+
+
+
+
+/*  Nuestros productos*/
+
+section .section-title {
+    text-align: center;
+    color: #167bf7;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.
+
+
+
+
+
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+    
+}
+.card-body{
+  height:455px;
+}
+
+
+.card-text{
+  text-align: justify !important;
+}
+
+ul{
+
+  list-style: none;
+}
+.input-error{
+  border: 2px solid rgb(241, 43, 8);
+}
+button, input {
+    overflow: visible;
+    width: 60%;
+    height: 35px;
+    margin-left: 5px;
+}
